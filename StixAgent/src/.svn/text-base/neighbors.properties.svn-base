@@ -1,5 +1,0 @@
-sitea=siteb,192.168.2.102
-siteb=sitea,192.168.2.101;sitee,192.168.2.105;sitec,192.168.2.103
-sitec=siteb,192.168.2.102;sited,192.168.2.104
-sited=sitec,192.168.2.103;sitee,192.168.2.105
-sitee=siteb,192.168.2.102;sited,192.168.2.104

@@ -1,131 +1,0 @@
-10
-
-dir
-2
-http://wimo-stix.googlecode.com/svn/trunk/StixGui/StixGuiEditor/server/src/de/hpi
-http://wimo-stix.googlecode.com/svn
-
-
-
-2011-11-08T09:59:28.980151Z
-2
-mino@minux.it
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-96a0a252-8cf7-4196-f09f-87d010c03615
-
-interactionnet
-dir
-
-epc2pn
-dir
-
-nunet
-dir
-
-highpetrinet
-dir
-
-PTnet
-dir
-
-petrinet
-dir
-
-bpmn
-dir
-
-bpmn2_0
-dir
-
-BPMNHelpers.java
-file
-
-
-
-
-2016-02-17T03:46:15.729329Z
-d0ae3f8dd56a97a005ab8a848afd55dd
-2011-11-08T09:59:28.980151Z
-2
-mino@minux.it
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2696
-
-bp
-dir
-
-ibpmn2bpmn
-dir
-
-diagram
-dir
-
-ibpmn
-dir
-
-epc
-dir
-
-layouting
-dir
-
-bpmn2pn
-dir
-
-util
-dir
-
-xforms
-dir
-
-bpmn2bpel
-dir
-
-treeGraph
-dir
-
-bpmn2execpn
-dir
-
-bpel2bpmn
-dir
-
-execpn
-dir
-
-bpel4chor
-dir
-

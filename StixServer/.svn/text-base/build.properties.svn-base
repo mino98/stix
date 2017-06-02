@@ -1,5 +1,0 @@
-build-dir = build
-target-dir = dist
-src-dir = src
-lib-dir = lib
-web-dir = web

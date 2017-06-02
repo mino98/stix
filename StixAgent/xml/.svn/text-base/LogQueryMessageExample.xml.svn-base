@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.wimo.inf.ed.ac.uk/code/stix" xsi:schemaLocation="http://www.wimo.inf.ed.ac.uk/code/stix Message.xsd">
-	<LogQuery>
-		<query>SELECT * FROM log</query>
-	</LogQuery>
-</Message>

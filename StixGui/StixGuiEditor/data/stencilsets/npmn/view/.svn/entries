@@ -1,92 +1,0 @@
-10
-
-dir
-2
-http://wimo-stix.googlecode.com/svn/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view
-http://wimo-stix.googlecode.com/svn
-
-
-
-2011-11-08T09:59:28.980151Z
-2
-mino@minux.it
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-96a0a252-8cf7-4196-f09f-87d010c03615
-
-conversations
-dir
-
-artifact
-dir
-
-startevent
-dir
-
-swimlane
-dir
-
-dataobject
-dir
-
-gateway
-dir
-
-diagram.svg
-file
-
-
-
-
-2016-02-17T03:46:46.632899Z
-3b2e6b4f224f8e0d027793ee05615d28
-2011-11-08T09:59:28.980151Z
-2
-mino@minux.it
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-762
-
-endevent
-dir
-
-connector
-dir
-
-intermediateevent
-dir
-
-activity
-dir
-
