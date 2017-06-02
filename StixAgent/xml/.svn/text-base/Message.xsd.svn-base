@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.wimo.inf.ed.ac.uk/code/stix" elementFormDefault="qualified">
+    <complexType name="Message">
+        <choice maxOccurs="1" minOccurs="1">
+        	<element name="LogQuery">
+        		<choice maxOccurs="1" minOccurs="1">
+        		</choice>
+        	</element>
+        	<element name="Log">
+        		<complexType>
+        			<sequence>
+        				<element name="AgentID" type="string" maxOccurs="1" minOccurs="1"></element>
+        				<element name="WorkflowID" type="string" maxOccurs="1" minOccurs="1"></element>
+        				<element name="Name" type="string" maxOccurs="1" minOccurs="1"></element>
+        				<element name="Value" type="string" maxOccurs="1" minOccurs="1"></element>
+        				<element name="Timestamp" type="string" maxOccurs="1" minOccurs="1"></element>
+        				<element name="MessageID" type="integer" maxOccurs="1" minOccurs="1"></element>
+        				<element name="J" type="integer" maxOccurs="1" minOccurs="1"></element>
+        				<element name="K" type="integer" maxOccurs="1" minOccurs="1"></element>
+        			</sequence>
+        		</complexType>
+        	</element>
+        	<element name="Workflow">
+        		<complexType>
+        			<sequence>
+        				<element name="WorkflowSource" type="string" maxOccurs="1" minOccurs="1"></element>
+        			</sequence>
+        		</complexType>
+        	</element>
+        	<element name="Event">
+        		<complexType>
+        			<sequence>
+        				<element name="Name" type="string" maxOccurs="1" minOccurs="1"></element>
+        				<element name="SourceID" type="string" maxOccurs="1" minOccurs="1"></element>
+        				<element name="Content" type="string" maxOccurs="1" minOccurs="1"></element>
+        			</sequence>
+        		</complexType>
+        	</element>
+        </choice>
+    </complexType>
+</schema>

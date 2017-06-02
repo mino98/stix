@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice
+END
+DeploymentService_xmlmime.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/DeploymentService_xmlmime.xsd
+END
+DeploymentService.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/DeploymentService.wsdl
+END
+DeploymentServiceLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/DeploymentServiceLayer.java
+END

@@ -1,0 +1,77 @@
+10
+
+dir
+2
+http://wimo-stix.googlecode.com/svn/trunk/StixGui/StixGuiEditor
+http://wimo-stix.googlecode.com/svn
+
+
+
+2011-11-08T09:59:28.980151Z
+2
+mino@minux.it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+96a0a252-8cf7-4196-f09f-87d010c03615
+
+etc
+dir
+
+client
+dir
+
+build.xml
+file
+
+
+
+
+2016-02-17T03:46:49.068865Z
+a84445655b13710742209bf0ce72256b
+2011-11-08T09:59:28.980151Z
+2
+mino@minux.it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17690
+
+server
+dir
+
+lib
+dir
+
+data
+dir
+

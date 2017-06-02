@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub
+END
+GetProcessPackage.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/GetProcessPackage.java
+END
+Package.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/Package.java
+END
+DeployUnit.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/DeployUnit.java
+END
+Deploy.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/Deploy.java
+END
+ObjectFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/ObjectFactory.java
+END
+Undeploy.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/Undeploy.java
+END
+ListDeployedPackages.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/ListDeployedPackages.java
+END
+DeploymentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/DeploymentService.java
+END
+ListProcesses.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/ListProcesses.java
+END
+DeploymentServicePortType.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/DeploymentServicePortType.java
+END
+GetProcessPackageResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/GetProcessPackageResponse.java
+END
+DeployResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/DeployResponse.java
+END
+ProcessIds.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/ProcessIds.java
+END
+UndeployResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/UndeployResponse.java
+END
+PackageNames.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/PackageNames.java
+END
+ListDeployedPackagesResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/ListDeployedPackagesResponse.java
+END
+ListProcessesResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/ListProcessesResponse.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/package-info.java
+END
+Base64Binary.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/Base64Binary.java
+END
+HexBinary.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/apacheode/deploymentservice/stub/HexBinary.java
+END

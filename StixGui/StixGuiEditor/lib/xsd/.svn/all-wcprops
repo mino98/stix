@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/xsd
+END
+ws-bpel_executable.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/xsd/ws-bpel_executable.xsd
+END
+ws-bpel_abstract.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/xsd/ws-bpel_abstract.xsd
+END
+xml.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/xsd/xml.xsd
+END

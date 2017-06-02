@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/diagram
+END
+DiagramEdge.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/diagram/DiagramEdge.java
+END
+DiagramNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/diagram/DiagramNode.java
+END
+DiagramObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/diagram/DiagramObject.java
+END
+Diagram.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/diagram/Diagram.java
+END
+OryxUUID.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/diagram/OryxUUID.java
+END

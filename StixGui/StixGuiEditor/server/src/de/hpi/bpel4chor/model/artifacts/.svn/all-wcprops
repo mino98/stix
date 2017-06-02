@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/model/artifacts
+END
+VariableDataObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/model/artifacts/VariableDataObject.java
+END
+model.artifacts.ucd
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/model/artifacts/model.artifacts.ucd
+END
+ParticipantSetDataObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/model/artifacts/ParticipantSetDataObject.java
+END
+Artifact.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/model/artifacts/Artifact.java
+END
+ParticipantReferenceDataObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/model/artifacts/ParticipantReferenceDataObject.java
+END
+DataObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/model/artifacts/DataObject.java
+END

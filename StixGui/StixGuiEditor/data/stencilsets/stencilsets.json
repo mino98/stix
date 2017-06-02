@@ -1,0 +1,10 @@
+[
+		{
+            "title":"NPMN",
+            "namespace":"http://www.wimo.inf.ed.ac.uk/stix",
+            "description":"NPMN stencil set specification.",
+            "uri":"/npmn/npmn.json",
+            "icon_url":"/npmn/npmn.png",
+            "visible":true
+        }
+]

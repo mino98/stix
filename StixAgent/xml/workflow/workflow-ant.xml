@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Workflow Model Creator" default="createWorkflowModel" basedir="../../">
+	<target name="createWorkflowModel">
+	      <!--
+	      Set up the classpath for the generation task.
+	      Include all the standard jaxme jars.
+	      -->
+	      <path id="lib">
+	        <pathelement location="lib/jaxme2-0.5.2.jar"/>
+	        <pathelement location="lib/jaxmejs-0.5.2.jar"/>
+	        <pathelement location="lib/jaxmexs-0.5.2.jar"/>
+	        <pathelement location="lib/jaxmeapi-0.5.2.jar"/>
+	      </path>
+	      <!--
+	      Defines the generation task using that classpath.
+	      -->
+	      <taskdef name="xjc"
+	        classname="org.apache.ws.jaxme.generator.XJCTask"
+	        classpathref="lib"/>
+	      <!--
+	      Generate source code.
+	      The 'schema' attribute gives the path to the schema the sources
+	      will be generated from.
+	      The 'target' attribute specifies the base directory that the source
+	      will be generated into. Sources will be created in subdirectories
+	      corresponding to the package structure.
+	      -->
+	      <xjc 
+	        schema="xml/workflow/npmn.xsd" 
+	      	package="uk.ac.ed.inf.wimo.stix.agent.model.workflow"
+	        target="src" >
+	            <!--
+	            The source files being created. The xjc task uses these for
+	            a check, whether they are uptodate. If so, the generation is
+	            skipped, for improved speed.
+	            Specifying the package isn't necessary, unless you have other
+	            files in the target directory as well, for example manually
+	            written files or files created by another generator or xjc call.
+	            If so, these need to be excluded from the uptodate check.
+	            -->
+	            <produces includes="uk/ac/ed/inf/wimo/stix/agent/model/workflow/*.java"/>
+	      </xjc>
+	    </target>
+
+</project>

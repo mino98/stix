@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/StixAgent/lib
+END
+sqltool.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/StixAgent/lib/sqltool.jar
+END
+hsqldb.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/StixAgent/lib/hsqldb.jar
+END
+jaxmeapi-0.5.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/StixAgent/lib/jaxmeapi-0.5.2.jar
+END
+jaxmexs-0.5.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/StixAgent/lib/jaxmexs-0.5.2.jar
+END
+jaxmejs-0.5.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/StixAgent/lib/jaxmejs-0.5.2.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/StixAgent/lib/log4j-1.2.15.jar
+END
+jaxmepm-0.5.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/StixAgent/lib/jaxmepm-0.5.2.jar
+END
+jaxme2-0.5.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/StixAgent/lib/jaxme2-0.5.2.jar
+END
+jsch-0.1.42.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/StixAgent/lib/jsch-0.1.42.jar
+END
+javacc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/StixAgent/lib/javacc.jar
+END
+snmp4j-1.10.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/StixAgent/lib/snmp4j-1.10.2.jar
+END
+junit.jar
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/StixAgent/lib/junit.jar
+END

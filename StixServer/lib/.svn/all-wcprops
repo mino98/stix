@@ -1,0 +1,269 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/StixServer/lib
+END
+jasper-jdt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/StixServer/lib/jasper-jdt.jar
+END
+jsp-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/StixServer/lib/jsp-api.jar
+END
+jasper-compiler-5.5.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/trunk/StixServer/lib/jasper-compiler-5.5.9.jar
+END
+tomcat-i18n-es.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/StixServer/lib/tomcat-i18n-es.jar
+END
+org.mortbay.jetty-5.1.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2/trunk/StixServer/lib/org.mortbay.jetty-5.1.9.jar
+END
+catalina.jar
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/StixServer/lib/catalina.jar
+END
+xercesImpl-2.8.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/StixServer/lib/xercesImpl-2.8.1.jar
+END
+jaxmexs-0.5.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/StixServer/lib/jaxmexs-0.5.2.jar
+END
+cargo-ant-0.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/StixServer/lib/cargo-ant-0.9.jar
+END
+jasper-runtime-5.5.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/StixServer/lib/jasper-runtime-5.5.9.jar
+END
+httpunit-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/StixServer/lib/httpunit-1.6.jar
+END
+sqlitejdbc-v056.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/StixServer/lib/sqlitejdbc-v056.jar
+END
+jasper-el.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/StixServer/lib/jasper-el.jar
+END
+cactus.integration.shared.api-1.8.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/StixServer/lib/cactus.integration.shared.api-1.8.0.jar
+END
+jaxme2-0.5.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/StixServer/lib/jaxme2-0.5.2.jar
+END
+cactus.integration.ant-1.8.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/StixServer/lib/cactus.integration.ant-1.8.0.jar
+END
+tomcat-coyote.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/StixServer/lib/tomcat-coyote.jar
+END
+nekohtml-1.9.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/StixServer/lib/nekohtml-1.9.6.jar
+END
+servlet-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/StixServer/lib/servlet-api.jar
+END
+commons-logging-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/StixServer/lib/commons-logging-1.1.jar
+END
+catalina-ant.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/StixServer/lib/catalina-ant.jar
+END
+tomcat-i18n-ja.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/StixServer/lib/tomcat-i18n-ja.jar
+END
+junit-4.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/StixServer/lib/junit-4.5.jar
+END
+jaxmeapi-0.5.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/StixServer/lib/jaxmeapi-0.5.2.jar
+END
+aspectjrt-1.5.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/StixServer/lib/aspectjrt-1.5.3.jar
+END
+jslint4java-1.2.1+rhino.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2/trunk/StixServer/lib/jslint4java-1.2.1+rhino.jar
+END
+annotations-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/StixServer/lib/annotations-api.jar
+END
+selenium-java-client-driver.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/StixServer/lib/selenium-java-client-driver.jar
+END
+el-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/StixServer/lib/el-api.jar
+END
+tomcat-i18n-fr.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/StixServer/lib/tomcat-i18n-fr.jar
+END
+cactus.core.framework.uberjar.javaEE.14-1.8.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/StixServer/lib/cactus.core.framework.uberjar.javaEE.14-1.8.0.jar
+END
+cargo-core-uberjar-0.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/StixServer/lib/cargo-core-uberjar-0.9.jar
+END
+jasper.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/StixServer/lib/jasper.jar
+END
+selenium-server.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/StixServer/lib/selenium-server.jar
+END
+commons-codec-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/StixServer/lib/commons-codec-1.4.jar
+END
+commons-httpclient-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/StixServer/lib/commons-httpclient-3.1.jar
+END
+servlet-api-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/StixServer/lib/servlet-api-2.4.jar
+END
+tomcat-dbcp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/StixServer/lib/tomcat-dbcp.jar
+END
+junit-3.8.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/StixServer/lib/junit-3.8.2.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/StixServer/lib/log4j-1.2.15.jar
+END
+jaxmepm-0.5.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/StixServer/lib/jaxmepm-0.5.2.jar
+END
+jaxmejs-0.5.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/StixServer/lib/jaxmejs-0.5.2.jar
+END
+catalina-tribes.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/StixServer/lib/catalina-tribes.jar
+END
+catalina-ha.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/StixServer/lib/catalina-ha.jar
+END

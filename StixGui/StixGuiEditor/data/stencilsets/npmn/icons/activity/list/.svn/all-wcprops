@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list
+END
+looptype.standard.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/looptype.standard.png
+END
+event.multiple.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/event.multiple.png
+END
+mi.sequential.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/mi.sequential.png
+END
+event.compensation.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/event.compensation.png
+END
+type.service.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/type.service.png
+END
+type.business.rule.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/type.business.rule.png
+END
+event.conditional.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/event.conditional.png
+END
+type.script.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/type.script.png
+END
+type.manual.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/type.manual.png
+END
+event.signal.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/event.signal.png
+END
+type.user.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/type.user.png
+END
+mi.parallel.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/mi.parallel.png
+END
+event.timer.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/event.timer.png
+END
+type.receive.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/type.receive.png
+END
+event.escalation.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/event.escalation.png
+END
+event.message.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/event.message.png
+END
+event.multiple.parallel.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/event.multiple.parallel.png
+END
+type.send.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/type.send.png
+END
+event.error.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/activity/list/event.error.png
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories
+END
+SupportingFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/SupportingFactory.java
+END
+Component.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/Component.java
+END
+TopologyFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/TopologyFactory.java
+END
+GeneralizedFlowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/GeneralizedFlowMapper.java
+END
+BasicActivityFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/BasicActivityFactory.java
+END
+ProcessFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/ProcessFactory.java
+END
+DeploymentDescriptorFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/DeploymentDescriptorFactory.java
+END
+SequenceFlowFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/SequenceFlowFactory.java
+END
+SynchronizingProcessMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/SynchronizingProcessMapper.java
+END
+ParticipantsFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/ParticipantsFactory.java
+END
+StructuredElementsFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/StructuredElementsFactory.java
+END
+Componentizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/Componentizer.java
+END
+Link.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/factories/Link.java
+END

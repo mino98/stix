@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/deprecated/infocard
+END
+stax-api-1.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/deprecated/infocard/stax-api-1.0.1.jar
+END
+axiom-api-1.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/deprecated/infocard/axiom-api-1.2.2.jar
+END
+higgins-configuration-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/deprecated/infocard/higgins-configuration-api.jar
+END
+higgins-sts-common.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/deprecated/infocard/higgins-sts-common.jar
+END
+higgins-sts-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/deprecated/infocard/higgins-sts-api.jar
+END
+higgins-sts-spi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/deprecated/infocard/higgins-sts-spi.jar
+END
+higgins-sts-server-token-handler.jar
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/deprecated/infocard/higgins-sts-server-token-handler.jar
+END

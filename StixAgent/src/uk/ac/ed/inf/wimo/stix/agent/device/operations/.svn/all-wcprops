@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/StixAgent/src/uk/ac/ed/inf/wimo/stix/agent/device/operations
+END
+Routable.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/StixAgent/src/uk/ac/ed/inf/wimo/stix/agent/device/operations/Routable.java
+END
+Wireless.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/StixAgent/src/uk/ac/ed/inf/wimo/stix/agent/device/operations/Wireless.java
+END
+Rebootable.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/StixAgent/src/uk/ac/ed/inf/wimo/stix/agent/device/operations/Rebootable.java
+END
+Powerable.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/StixAgent/src/uk/ac/ed/inf/wimo/stix/agent/device/operations/Powerable.java
+END
+Voltage.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/StixAgent/src/uk/ac/ed/inf/wimo/stix/agent/device/operations/Voltage.java
+END

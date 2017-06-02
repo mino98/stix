@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/StixGui/lib/licenses
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/StixGui/lib/licenses/README.txt
+END
+apache-2.0.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/StixGui/lib/licenses/apache-2.0.txt
+END
+httpunit.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/StixGui/lib/licenses/httpunit.txt
+END
+mozilla-1.1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/StixGui/lib/licenses/mozilla-1.1.txt
+END
+cddl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/StixGui/lib/licenses/cddl.txt
+END
+epl-v10.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/StixGui/lib/licenses/epl-v10.html
+END
+cpl-1.0.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/StixGui/lib/licenses/cpl-1.0.txt
+END

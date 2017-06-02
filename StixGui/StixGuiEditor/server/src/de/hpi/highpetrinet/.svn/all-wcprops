@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/highpetrinet
+END
+HighTransition.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/highpetrinet/HighTransition.java
+END
+HighPetriNet.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/highpetrinet/HighPetriNet.java
+END
+HighPNPNMLExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/highpetrinet/HighPNPNMLExporter.java
+END
+HighPetriNetFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/highpetrinet/HighPetriNetFactory.java
+END
+HighLabeledTransition.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/highpetrinet/HighLabeledTransition.java
+END
+HighFlowRelationship.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/highpetrinet/HighFlowRelationship.java
+END
+HighSilentTransition.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/highpetrinet/HighSilentTransition.java
+END

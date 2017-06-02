@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/unihannover/se/infocup2008/bpmn/layouter/decorator
+END
+AbstractDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/unihannover/se/infocup2008/bpmn/layouter/decorator/AbstractDecorator.java
+END
+LayoutConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/unihannover/se/infocup2008/bpmn/layouter/decorator/LayoutConstants.java
+END
+DocketEventDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/unihannover/se/infocup2008/bpmn/layouter/decorator/DocketEventDecorator.java
+END

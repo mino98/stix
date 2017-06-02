@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/parser
+END
+SubProcessParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/parser/SubProcessParser.java
+END
+parser.ucd
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/parser/parser.ucd
+END
+SupportingParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/parser/SupportingParser.java
+END
+ActivityParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/parser/ActivityParser.java
+END
+ArtifactParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/parser/ArtifactParser.java
+END
+ProcessParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/parser/ProcessParser.java
+END
+SwimlaneParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/parser/SwimlaneParser.java
+END
+Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/parser/Parser.java
+END
+GraphicalObjectParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/parser/GraphicalObjectParser.java
+END
+ConnectionsParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/parser/ConnectionsParser.java
+END
+TriggerParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/parser/TriggerParser.java
+END
+DiagramParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpel4chor/parser/DiagramParser.java
+END

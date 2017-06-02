@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/epc/layouting
+END
+EPCEdgeLayouter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/epc/layouting/EPCEdgeLayouter.java
+END
+TopologicalSorterEPC.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/epc/layouting/TopologicalSorterEPC.java
+END
+EPCTopToBottomGridLayouter.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/epc/layouting/EPCTopToBottomGridLayouter.java
+END

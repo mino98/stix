@@ -1,0 +1,174 @@
+options {
+  STATIC = false;
+}
+PARSER_BEGIN(Condition)
+
+package uk.ac.ed.inf.wimo.stix.agent.util.condition;
+
+import java.io.StringReader;
+import java.io.IOException;
+import uk.ac.ed.inf.wimo.stix.agent.engine.WorkflowException;
+
+public class Condition {
+
+	IdentValueRetriever idValueRetriever;
+	String conditionString;
+
+  	public void registerIdentValueRetriever(IdentValueRetriever ivr) {		idValueRetriever = ivr;	
+  	}
+
+  	public Condition(String condition) {
+		this(new StringReader(condition));
+  	  	this.conditionString = condition;  	}
+  	
+  	public void reInit() {
+  		this.ReInit(new StringReader(conditionString));
+  	}
+
+	public boolean parse() throws NumberFormatException, ParseException, WorkflowException, IOException {
+ 		return this.expression();
+	}
+
+	public String toString() {		return conditionString;
+	}
+	  
+}
+PARSER_END(Condition)
+
+SKIP : { " " }
+SKIP : { "\n" | "\r" | "\r\n" }
+TOKEN : { < HASH : "#" > }
+TOKEN : { < ADD : "+" > }
+TOKEN : { < SUB : "-" > }
+TOKEN : { < MUL : "*" > }
+TOKEN : { < DIV : "/" > }
+TOKEN : { < OPENPAR : "(" > }TOKEN : { < CLOSEPAR : ")" > }  
+TOKEN : { < EQUAL : "==" > }
+TOKEN : { < LESS : "<" > }
+TOKEN : { < MOR : ">" > }
+TOKEN : { < LESSEQUAL : "<=" > }
+TOKEN : { < MOREEQUAL : ">=" > }
+TOKEN : { < AND : "AND" > }
+TOKEN : { < OR  : "OR" > }
+TOKEN : { < NUMBER : (["0"-"9"])+ > }
+TOKEN :{  < IDENTIFIER : (["A"-"Z"]|["a"-"z"])(["0"-"9"]|["A"-"Z"]|["a"-"z"]|"_"|"."|"-")* >
+}
+
+boolean expression() throws NumberFormatException, WorkflowException, IOException :
+{
+	boolean value;
+	boolean temp;
+}
+{
+	value = simpleBoolExpr()
+	(	  < AND >
+	  temp = simpleBoolExpr()
+	  { value = value && temp; }
+	|
+	  < OR >
+	  temp = simpleBoolExpr()
+	  { value = value || temp; }	)*
+	{ return value; }
+}
+
+
+boolean simpleBoolExpr() throws NumberFormatException, WorkflowException, IOException :
+{	double mathValue;
+	double tempMathValue;
+	boolean exprValue;
+}
+{//	< OPENPAR > exprValue = expression() < CLOSEPAR >
+//    { return exprValue; }
+//  |
+  	< HASH > exprValue = stringEquality() < HASH >
+  	{ return exprValue; }
+  | 
+	mathValue = simpleMathExpr()
+	(	  < EQUAL >
+	  tempMathValue = simpleMathExpr()
+	  { exprValue = (mathValue == tempMathValue); }
+	| 
+	  < MOR >
+	  tempMathValue = simpleMathExpr()
+	  { exprValue = (mathValue > tempMathValue); }
+	| 
+	  < LESS >
+	  tempMathValue = simpleMathExpr()
+	  { exprValue = (mathValue < tempMathValue); }
+	| 
+	  < MOREEQUAL >
+	  tempMathValue = simpleMathExpr()
+	  { exprValue = (mathValue >= tempMathValue); }
+	| 
+	  < LESSEQUAL >
+	  tempMathValue = simpleMathExpr()
+	  { exprValue = (mathValue <= tempMathValue); }
+	) 
+    { return exprValue; }
+}
+
+boolean stringEquality() throws IOException :
+{
+  	Token t1, t2;	boolean exprValue;
+	String lhsValue;
+}
+{
+  t1 = < IDENTIFIER >
+  { lhsValue = idValueRetriever.getValue(t1.image); }
+  < EQUAL >
+  t2 = < IDENTIFIER >
+  { return t2.image.equals(lhsValue); }}
+
+double simpleMathExpr() throws NumberFormatException, WorkflowException, IOException :{	double value;
+	double tempValue;
+}
+{
+	value = productExpr()
+	(
+	  < ADD >
+      tempValue = productExpr()
+      { value += tempValue; }	|
+	  < SUB >
+	  tempValue = productExpr()
+	  {value -= tempValue; }
+	)*
+	{ return value; }}
+
+double productExpr() throws NumberFormatException, WorkflowException, IOException :
+{
+	double value;
+	double tempValue;
+}
+{
+  	value = primaryExpr()
+	(
+	  < MUL >
+      tempValue = primaryExpr()
+      { value *= tempValue; }
+	|
+	  < DIV >
+	  tempValue = primaryExpr()
+	  { value /= tempValue; }
+	)*
+	{ return value; }
+}
+
+double primaryExpr() throws NumberFormatException, WorkflowException, IOException :
+{
+  Token t;
+  double innerValue;}
+{
+  t = < NUMBER >
+  { return Double.parseDouble(t.image); }
+|
+  t = < IDENTIFIER >
+  {
+	String idValue = idValueRetriever.getValue(t.image);
+	return Double.parseDouble(idValue);
+  }
+| 
+  < OPENPAR > innerValue = simpleMathExpr() < CLOSEPAR >
+  { return innerValue; }
+|
+  < SUB > innerValue = primaryExpr()
+  { return (0.0 - innerValue); }}

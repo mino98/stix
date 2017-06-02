@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="StixServer" basedir="./">
+    
+	
+    <!-- Load additional properties -->
+    <property file="build.properties"/>
+
+	<!-- Test variable expansion -->
+	<target name="test">
+		<echo>
+			Build directory: ${build-dir}
+		</echo>
+	</target>
+	
+	<!-- Clean up build files -->
+    <target name="clean">
+        <delete dir="${build-dir}"/> 
+        <delete dir="${target-dir}"/>
+    </target>
+	
+	<!-- Build the classes -->
+    <target name="build">
+        
+        <mkdir dir="${build-dir}/classes"/>
+        
+        <javac srcdir="${src-dir}" destdir="${build-dir}/classes">
+            <classpath>
+                <fileset dir="${lib-dir}">
+                    <include name="*.jar"/>
+                    <exclude name="deprecated/**"/>
+                </fileset>
+            </classpath>
+        </javac>
+        
+    </target>
+	
+	<!-- Create the war file -->
+	<target name="dist" depends="build">
+	    <mkdir dir="${target-dir}"/>
+	
+	    <echo>
+	        Creating web application archive.
+	    </echo>
+	    <war destfile="${target-dir}/StixServer.war" webxml="${web-dir}/WEB-INF/web.xml">
+        
+	        <lib dir="lib">
+	            <include name="*.jar"/>
+	            <include name="*.xsl"/>
+	            <exclude name="deprecated/**"/>
+	            <exclude name="sources/**"/>
+	            <exclude name="servlet-api.jar"/>
+	        </lib>
+
+	        <classes dir="${build-dir}/classes"/>
+        
+	        <metainf file="${web-dir}/META-INF/context.xml"/>
+        
+	    	<fileset dir="${web-dir}">
+	    		<include name="*.jsp"/>
+	    		<include name="css/**"/>
+	    		<include name="js/**"/>
+	    		<include name="static/**"/>
+	    	</fileset>
+	    		
+	    	
+	    </war>
+	</target>
+	
+	
+
+</project>

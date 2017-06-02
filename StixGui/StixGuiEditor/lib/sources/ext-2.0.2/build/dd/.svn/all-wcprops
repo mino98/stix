@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/sources/ext-2.0.2/build/dd
+END
+DropTarget-min.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/sources/ext-2.0.2/build/dd/DropTarget-min.js
+END
+DragSource-min.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/sources/ext-2.0.2/build/dd/DragSource-min.js
+END
+DropZone-min.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/sources/ext-2.0.2/build/dd/DropZone-min.js
+END
+DDCore-min.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/sources/ext-2.0.2/build/dd/DDCore-min.js
+END
+StatusProxy-min.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/sources/ext-2.0.2/build/dd/StatusProxy-min.js
+END
+Registry-min.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/sources/ext-2.0.2/build/dd/Registry-min.js
+END
+DragTracker-min.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/sources/ext-2.0.2/build/dd/DragTracker-min.js
+END
+DragZone-min.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/sources/ext-2.0.2/build/dd/DragZone-min.js
+END
+ScrollManager-min.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/sources/ext-2.0.2/build/dd/ScrollManager-min.js
+END

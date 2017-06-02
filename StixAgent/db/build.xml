@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="DBhelpers">
+	<!--Load environment variables and give them prefix "env." -->
+	<property environment="env" />
+	<property name="DB_PATH" value="file:${basedir}/data/stix" />
+	<property name="DB_URL" value="jdbc:hsqldb:hsql://localhost/" />
+	<!-- <property name="DB_URL" value="jdbc:hsqldb:file:${basedir}/data/stix" /> -->
+	
+	<path id="project.classpath">
+		<pathelement location="../lib/hsqldb.jar" />
+	</path>
+				
+	<!-- ==========================HSQLDB helpers================== -->
+	<target name="start-hsqldb" description="Run HSQL database serve">
+		<!-- Delete HSQLDB database files -->
+		<delete dir="${database.dir}" />
+		<java classname="org.hsqldb.server.Server" fork="yes" classpathref="project.classpath" failonerror="true">
+			<arg value="-database.0" />
+			<arg value="${DB_PATH}" />
+		</java>
+	</target>
+
+	<target name="shutdown-hsqldb" description="Shutdown HSQL database">
+		<sql classpathref="project.classpath" driver="org.hsqldb.jdbcDriver" url="jdbc:hsqldb:hsql://localhost/" userid="sa" password="">
+	       shutdown
+	    </sql>
+	</target>
+
+	<!-- Start the HSQL DB browser tool, if you want to see DB in a GUI -->
+	<target name="dbmanager" description="Start HSQL DB manager">
+		<java classname="org.hsqldb.util.DatabaseManagerSwing" fork="yes" 
+		classpathref="project.classpath" failonerror="true">
+			<arg value="-url" />
+			<arg value="${DB_URL}" />
+			<arg value="-driver" />
+			<arg value="org.hsqldb.jdbcDriver" />
+		</java>
+	</target>
+
+	<target name="load-hsqldb" description="Load HSQL database">
+		<sql classpathref="project.classpath" driver="org.hsqldb.jdbcDriver" 
+			url="${DB_URL}" userid="sa" password="" 
+			src="createdb.sql" />
+	</target>
+	
+	<target name="show-hsqldb" description="Show HSQL database ">
+		<sql classpathref="project.classpath" driver="org.hsqldb.jdbcDriver" 
+			url="${DB_URL}" userid="sa" password="" 
+			src="showdb.sql" print="true"/>
+	</target>
+	
+	<target name="drop-hsqldb" description="Drop HSQL database">
+		<sql classpathref="project.classpath" driver="org.hsqldb.jdbcDriver" 
+			url="${DB_URL}" userid="sa" password="" 
+			src="dropdb.sql" onerror="continue"/>
+	</target>
+	
+	<target name="clear-hdqldb" depends="drop-hsqldb,load-hsqldb"></target>
+
+</project>

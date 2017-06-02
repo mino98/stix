@@ -1,0 +1,351 @@
+options {
+  MULTI=true;
+  VISITOR=true;
+  NODE_DEFAULT_VOID=true;
+  STATIC=true;
+}
+
+PARSER_BEGIN(wiki)
+import java.io.*;
+
+public class wiki {
+   public static void main(String args[])
+   {
+      System.out.println("Reading from file: " + args[0]);
+      try
+      {
+         File io = new File(args[0]);
+         FileInputStream is = new FileInputStream(io);
+         wiki t = new wiki(is);
+         ASTStart n = t.Start();
+         wikiDumpVisitor v = new wikiDumpVisitor();
+         n.jjtAccept(v, null);
+         is.close();
+      }
+      catch (Exception e)
+      {
+         System.out.println("Oops.");
+         System.out.println(e.getMessage());
+         e.printStackTrace();
+      }
+   }
+}
+
+PARSER_END(wiki)
+
+TOKEN : /* LITERALS */
+{
+  <HEADER: (["!"])+ > : TEXT
+|
+  <BULLETS: (["*"])+ > : TEXT
+|
+  <NUMBERS: (["#"])+ > : TEXT
+|
+  <ANY: "{{{" > : ANYTHING
+|
+  <COLUMN: "|" > : TABLE_TEXT
+|
+  <TERM: ";" > : TERM_TEXT
+|
+  <HORIZONTAL_RULER: "----" > : TEXT
+|
+  <DEFAULT_LINK: "[" > : LINK
+}
+
+MORE :
+{
+  <~["\n","\r"]> : TEXT
+}
+
+<ANYTHING> TOKEN :
+{
+  <ANYCHAR:  (<C>)? <NC> (<C> <NC>)*>
+|
+  <C: "}" | "}}">
+|
+  <NC: (~["}"])+ >
+|
+  <END_ANY: "}}}" > : TEXT
+}
+
+
+<TABLE_ANYTHING> TOKEN :
+{
+  <TABLE_ANYCHAR:  (<TABLE_C>)? <TABLE_NC> (<TABLE_C> <TABLE_NC>)*>
+|
+  <TABLE_C: "}" | "}}">
+|
+  <TABLE_NC: (~["}"])+ >
+|
+  <TABLE_END_ANY: "}}}" > : TABLE_TEXT
+}
+
+
+<TERM_ANYTHING> TOKEN :
+{
+  <TERM_ANYCHAR:  (<TERM_C>)? <TERM_NC> (<TERM_C> <TERM_NC>)*>
+|
+  <TERM_C: "}" | "}}">
+|
+  <TERM_NC: (~["}"])+ >
+|
+  <TERM_END_ANY: "}}}" > : TERM_TEXT
+}
+
+
+<TEXT> TOKEN :
+{
+  <LINK_START: "["> : LINK
+|
+  <ANY_START: "{{{"> : ANYTHING
+|
+  <STUFF: (<LEFT_CURLY>)? <NOTANYC> (<LEFT_CURLY> <NOTANYC>)* >
+|
+  <#NOTANYC: (~["\n","\r", "[", "{"])+>
+|
+  <#LEFT_CURLY: "{" | "{{">
+|
+  <NEWLINE: ("\n"|"\r\n") > : DEFAULT
+}
+
+<TABLE_TEXT> TOKEN :
+{
+  <TABLE_LINK_START: "["> : TABLE_LINK
+|
+  <TABLE_ANY_START: "{{{"> : TABLE_ANYTHING
+|
+  <TABLE_COLUMN: "|">
+|
+  <TABLE_STUFF: (<TABLE_LEFT_CURLY>)? <TABLE_NOTANYC> (<TABLE_LEFT_CURLY> <TABLE_NOTANYC>)* >
+|
+  <#TABLE_NOTANYC: (~["\n","\r", "[", "{", "|"])+>
+|
+  <#TABLE_LEFT_CURLY: "{" | "{{">
+|
+  <TABLE_NEWLINE: ("\n"|"\r\n") > : DEFAULT
+}
+
+<TERM_TEXT> TOKEN :
+{
+  <TERM_LINK_START: "["> : TERM_LINK
+|
+  <TERM_ANY_START: "{{{"> : TERM_ANYTHING
+|
+  <DEF: ":">
+|
+  <TERM_STUFF: (<TERM_LEFT_CURLY>)? <TERM_NOTANYC> (<TERM_LEFT_CURLY> <TERM_NOTANYC>)* >
+|
+  <#TERM_NOTANYC: (~["\n","\r", "[", "{", ":"])+>
+|
+  <#TERM_LEFT_CURLY: "{" | "{{">
+|
+  <TERM_NEWLINE: ("\n"|"\r\n") > : DEFAULT
+}
+
+<LINK> TOKEN:
+{
+  <LINK_TEXT: ~["\n","\r", "]", "|","0"-"9","#"] (~["\n","\r", "]", "|"])+>
+|
+  <FOOTNOTE: "#">	
+|
+  <LINK_NUMERIC: (["0"-"9"])+>
+|
+  <LINK_SEPARATOR: "|" >
+|
+  <LINK_END: "]"> : TEXT
+}
+
+
+<TABLE_LINK> TOKEN:
+{
+  <TABLE_LINK_TEXT: ~["\n","\r", "]", "|","0"-"9","#"] (~["\n","\r", "]", "|"])+>
+|
+  <TABLE_FOOTNOTE: "#">	
+|
+  <TABLE_LINK_NUMERIC: (["0"-"9"])+>
+|
+  <TABLE_LINK_SEPARATOR: "|" >
+|
+  <TABLE_LINK_END: "]"> : TABLE_TEXT
+}
+
+
+<TERM_LINK> TOKEN:
+{
+  <TERM_LINK_TEXT: ~["\n","\r", "]", "|","0"-"9","#"] (~["\n","\r", "]", "|"])+>
+|
+  <TERM_FOOTNOTE: "#">	
+|
+  <TERM_LINK_NUMERIC: (["0"-"9"])+>
+|
+  <TERM_LINK_SEPARATOR: "|" >
+|
+  <TERM_LINK_END: "]"> : TERM_TEXT
+}
+
+
+ASTStart Start() #Start : {}
+{
+  (Line())+ <EOF>
+  { return jjtThis; }
+}
+
+
+void Line() #Line : {}
+{
+  (HorizontalRuler() <NEWLINE>) | (Numbers() <NEWLINE>) | (Table() <TABLE_NEWLINE>) | (Term() <TERM_NEWLINE>) | (Header() <NEWLINE>) | (Bullets() <NEWLINE> ) | (Text() <NEWLINE>) | ("\n"|"\r\n")
+}
+
+void Header() #Header : 
+{
+   Token t;
+}
+{
+  t=<HEADER> 
+  {
+     jjtThis.setSize(t.image);
+  }
+  Text()
+}
+
+void HorizontalRuler() #HorizontalRuler :
+{
+}
+{
+  <HORIZONTAL_RULER>
+  Text()
+}
+
+void Bullets() #Bullets :
+{
+   Token t;
+}
+{
+  t=<BULLETS> 
+  {
+     jjtThis.setSize(t.image);
+  }
+  Text()
+}
+
+void Numbers() #Numbers : 
+{
+   Token t;
+}
+{
+  t=<NUMBERS> 
+  {
+     jjtThis.setSize(t.image);
+  }
+  Text()
+}
+
+void Term() #Term : 
+{
+}
+{
+  (<TERM> [Text()] <DEF> Text())
+  {
+     if (jjtThis.jjtGetNumChildren() > 1)
+     {
+        jjtThis.term = (ASTText)jjtThis.jjtGetChild(0);
+        jjtThis.def = (ASTText)jjtThis.jjtGetChild(1);
+     }
+     else
+     {
+        jjtThis.def = (ASTText)jjtThis.jjtGetChild(0);
+     }
+  }
+}
+
+void Table() #Table : {}
+{
+  (Column())+
+}
+
+void Column() #Column : 
+{
+}
+{ 
+  (<COLUMN>|<TABLE_COLUMN>)
+  (
+   LOOKAHEAD(2) [<TABLE_COLUMN>
+   {
+      jjtThis.setHeader(true);
+   }]
+   Text())?
+}
+
+void Text() #Text :
+{
+  Token t;
+}
+{
+  (LOOKAHEAD(3) Anything() | LOOKAHEAD(3) PlainText() | LOOKAHEAD(3) Link() | LOOKAHEAD(3) FootnoteRef() | LOOKAHEAD(3) Footnote())+
+}
+
+void Anything() #Anything :
+{
+  Token t;
+}
+{
+  (<ANY>|<ANY_START>|<TABLE_ANY_START>|<TERM_ANY_START>) [(t=<ANYCHAR>|t=<TABLE_ANYCHAR>|t=<TERM_ANYCHAR>) { jjtThis.text = t.image; } ] (<END_ANY>|<TABLE_END_ANY>|<TERM_END_ANY>)
+}
+
+void PlainText() #PlainText :
+{
+  Token t;
+}
+{
+  (t=<STUFF>|t=<TABLE_STUFF>|t=<TERM_STUFF>)
+  {
+    jjtThis.setText(t.image);
+  }
+}
+
+void Link() #Link:
+{
+  Token text, link;
+}
+{
+  (<LINK_START>|<DEFAULT_LINK>|<TABLE_LINK_START>|<TERM_LINK_START>)
+
+  (text=<LINK_TEXT>|text=<TABLE_LINK_TEXT>|text=<TERM_LINK_TEXT>)
+  {
+    jjtThis.setText(text.image);
+  }
+  (
+  ( <LINK_SEPARATOR>|<TABLE_LINK_SEPARATOR>|<TERM_LINK_SEPARATOR>) (link=<LINK_TEXT>|link=<TABLE_LINK_TEXT>|link=<TERM_LINK_TEXT>)
+  {
+    jjtThis.setLinkText(link.image);
+  }
+  )?
+
+  (<LINK_END>|<TABLE_LINK_END>|<TERM_LINK_END>)
+}
+void FootnoteRef() #FootnoteRef:
+{
+  Token text;
+}
+{
+  (<LINK_START>|<TABLE_LINK_START>|<TERM_LINK_START>)
+  (text=<LINK_NUMERIC> | text=<TABLE_LINK_NUMERIC>| text=<TERM_LINK_NUMERIC>)
+  {
+    jjtThis.setText(text.image);
+  }
+  (<LINK_END>|<TABLE_LINK_END>|<TERM_LINK_END>)
+}
+void Footnote() #Footnote:
+{
+  Token text;
+}
+{
+  (<LINK_START>|<DEFAULT_LINK>|<TABLE_LINK_START>|<TERM_LINK_START>)
+  (<FOOTNOTE>|<TABLE_FOOTNOTE>|<TERM_FOOTNOTE>)
+  (text=<LINK_NUMERIC>|text=<TABLE_LINK_NUMERIC>|text=<TERM_LINK_NUMERIC>)
+  {
+    jjtThis.setText(text.image);
+  }
+  (<LINK_END>|<TABLE_LINK_END>|<TERM_LINK_END>)
+
+}

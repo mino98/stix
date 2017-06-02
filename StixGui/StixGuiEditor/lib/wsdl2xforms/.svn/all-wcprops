@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/wsdl2xforms
+END
+complex2xforms.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/wsdl2xforms/complex2xforms.xsl
+END
+wsdl2xforms.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/wsdl2xforms/wsdl2xforms.xsl
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/wsdl2xforms/license.txt
+END
+schematraverse.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/wsdl2xforms/schematraverse.xsl
+END
+schema2xforms.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/wsdl2xforms/schema2xforms.xsl
+END
+wsdltraverse.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/wsdl2xforms/wsdltraverse.xsl
+END
+xtee2xforms.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/lib/wsdl2xforms/xtee2xforms.xsl
+END

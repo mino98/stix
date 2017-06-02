@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates
+END
+IntermediateMessageEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/IntermediateMessageEventTemplate.java
+END
+EndTerminateEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/EndTerminateEventTemplate.java
+END
+EndErrorEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/EndErrorEventTemplate.java
+END
+StartPlainEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/StartPlainEventTemplate.java
+END
+StartConditionalEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/StartConditionalEventTemplate.java
+END
+ANDGatewayTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/ANDGatewayTemplate.java
+END
+IntermediateErrorEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/IntermediateErrorEventTemplate.java
+END
+SubProcessTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/SubProcessTemplate.java
+END
+ComplexGatewayTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/ComplexGatewayTemplate.java
+END
+ConnectorTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/ConnectorTemplate.java
+END
+StartSignalEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/StartSignalEventTemplate.java
+END
+SequenceFlowTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/SequenceFlowTemplate.java
+END
+ORGatewayTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/ORGatewayTemplate.java
+END
+TaskTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/TaskTemplate.java
+END
+StartMessageEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/StartMessageEventTemplate.java
+END
+EndSignalEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/EndSignalEventTemplate.java
+END
+IntermediateSignalEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/IntermediateSignalEventTemplate.java
+END
+StartMultipleEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/StartMultipleEventTemplate.java
+END
+MessageFlowTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/MessageFlowTemplate.java
+END
+IntermediateTimerEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/IntermediateTimerEventTemplate.java
+END
+StartLinkEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/StartLinkEventTemplate.java
+END
+EndCancelEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/EndCancelEventTemplate.java
+END
+IntermediateCancelEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/IntermediateCancelEventTemplate.java
+END
+UndirectedAssociationTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/UndirectedAssociationTemplate.java
+END
+XORDataBasedGatewayTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/XORDataBasedGatewayTemplate.java
+END
+EndMultipleEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/EndMultipleEventTemplate.java
+END
+EndLinkEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/EndLinkEventTemplate.java
+END
+EndCompensationEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/EndCompensationEventTemplate.java
+END
+IntermediateMultipleEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/IntermediateMultipleEventTemplate.java
+END
+IntermediateLinkEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/IntermediateLinkEventTemplate.java
+END
+XOREventBasedGatewayTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/XOREventBasedGatewayTemplate.java
+END
+EndPlainEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/EndPlainEventTemplate.java
+END
+IntermediateCompensationEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/IntermediateCompensationEventTemplate.java
+END
+IntermediatePlainEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/IntermediatePlainEventTemplate.java
+END
+IntermediateConditionalEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/IntermediateConditionalEventTemplate.java
+END
+DataObjectTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/DataObjectTemplate.java
+END
+StartTimerEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/StartTimerEventTemplate.java
+END
+BPMN2ERDFTemplateImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/BPMN2ERDFTemplateImpl.java
+END
+NonConnectorTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/NonConnectorTemplate.java
+END
+PoolTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/PoolTemplate.java
+END
+AssociationTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/AssociationTemplate.java
+END
+EndMessageEventTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/EndMessageEventTemplate.java
+END
+TextAnnotationTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/TextAnnotationTemplate.java
+END
+LaneTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/LaneTemplate.java
+END
+BPMN2ERDFTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/BPMN2ERDFTemplate.java
+END
+CollapsedSubprocessTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn/serialization/erdf/templates/CollapsedSubprocessTemplate.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/petrinet/serialization/erdf
+END
+petrinet.erdf.vm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/petrinet/serialization/erdf/petrinet.erdf.vm
+END
+PetriNeteRDFSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/petrinet/serialization/erdf/PetriNeteRDFSerializer.java
+END
+PetriNeteRDFParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/petrinet/serialization/erdf/PetriNeteRDFParser.java
+END

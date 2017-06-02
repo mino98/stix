@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/etc
+END
+pnengine.properties
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/etc/pnengine.properties
+END
+database.properties
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/etc/database.properties
+END
+context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/etc/context.xml
+END
+server.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/etc/server.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/etc/web.xml
+END

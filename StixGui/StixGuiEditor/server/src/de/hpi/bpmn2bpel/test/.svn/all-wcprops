@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/test
+END
+bpel_calculator2_test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/test/bpel_calculator2_test.xml
+END
+bpel_trivial1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/test/bpel_trivial1.xml
+END
+bpel_trivial2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/test/bpel_trivial2.xml
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/test/Test.java
+END
+bpel_uplink_signal_test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/test/bpel_uplink_signal_test.xml
+END
+bpel_dataobject.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/test/bpel_dataobject.xml
+END
+AndGatewayTest-Oryx.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/test/AndGatewayTest-Oryx.xml
+END
+bpel_calculator_with_dataobject_test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/test/bpel_calculator_with_dataobject_test.xml
+END
+bpel_sequence_test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/test/bpel_sequence_test.xml
+END
+odeTestBPEL.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/test/odeTestBPEL.xml
+END
+bpel_calculator_test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/bpmn2bpel/test/bpel_calculator_test.xml
+END

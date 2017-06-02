@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/petrinet/stepthrough
+END
+STMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/petrinet/stepthrough/STMapper.java
+END
+STPetriNetFactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/petrinet/stepthrough/STPetriNetFactoryImpl.java
+END
+STLabeledTransitionImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/petrinet/stepthrough/STLabeledTransitionImpl.java
+END
+STSilentTransition.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/petrinet/stepthrough/STSilentTransition.java
+END
+STTransition.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/petrinet/stepthrough/STTransition.java
+END
+STSyntaxChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/petrinet/stepthrough/STSyntaxChecker.java
+END
+AutoSwitchLevel.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/petrinet/stepthrough/AutoSwitchLevel.java
+END

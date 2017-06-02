@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/StixServer/src/uk/ac/ed/wimo/stix/view/storage
+END
+DocumentDoesNotExistException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/StixServer/src/uk/ac/ed/wimo/stix/view/storage/DocumentDoesNotExistException.java
+END
+DocumentStoreException.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/StixServer/src/uk/ac/ed/wimo/stix/view/storage/DocumentStoreException.java
+END
+DocumentStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/StixServer/src/uk/ac/ed/wimo/stix/view/storage/DocumentStore.java
+END
+SQLiteDocumentStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/StixServer/src/uk/ac/ed/wimo/stix/view/storage/SQLiteDocumentStore.java
+END
+DocumentAlreadyExistsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/StixServer/src/uk/ac/ed/wimo/stix/view/storage/DocumentAlreadyExistsException.java
+END

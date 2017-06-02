@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/epc/layouting/model
+END
+EPCElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/epc/layouting/model/EPCElement.java
+END
+EPCElementImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/epc/layouting/model/EPCElementImpl.java
+END
+EPCType.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/epc/layouting/model/EPCType.java
+END
+EPCElementJSON.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/epc/layouting/model/EPCElementJSON.java
+END
+EPCDiagram.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/epc/layouting/model/EPCDiagram.java
+END
+EPCDiagramImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/epc/layouting/model/EPCDiagramImpl.java
+END
+EPCJSONParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/server/src/de/hpi/epc/layouting/model/EPCJSONParser.java
+END

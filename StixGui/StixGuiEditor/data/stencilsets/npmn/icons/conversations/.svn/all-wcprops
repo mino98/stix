@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/conversations
+END
+subconversation.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/conversations/subconversation.png
+END
+communication.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/conversations/communication.png
+END
+participant.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/icons/conversations/participant.png
+END

@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins
+END
+selectssperspective.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/selectssperspective.js
+END
+shaperepository.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/shaperepository.js
+END
+selectionframe.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/selectionframe.js
+END
+toolbar.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/toolbar.js
+END
+keysMove.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/keysMove.js
+END
+ibpmn2bpmn.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/ibpmn2bpmn.js
+END
+dragDocker.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/dragDocker.js
+END
+undo.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/undo.js
+END
+plugins.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/plugins.xml
+END
+jsonSupport.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/jsonSupport.js
+END
+amlSupport.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/amlSupport.js
+END
+profiles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/profiles.xml
+END
+view.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/view.js
+END
+renameShapes.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/renameShapes.js
+END
+propertywindow.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/propertywindow.js
+END
+erdfSupport.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/erdfSupport.js
+END
+rdfExport.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/rdfExport.js
+END
+loading.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/loading.js
+END
+treeGraphSupport.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/treeGraphSupport.js
+END
+file.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/file.js
+END
+addDocker.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/addDocker.js
+END
+workflowattributes.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/workflowattributes.js
+END
+dragdropresize.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/dragdropresize.js
+END
+edit.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/edit.js
+END
+shapemenu.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/shapemenu.js
+END
+shapeHighlighting.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/shapeHighlighting.js
+END
+grouping.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/grouping.js
+END
+addssextension.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/client/scripts/Plugins/addssextension.js
+END

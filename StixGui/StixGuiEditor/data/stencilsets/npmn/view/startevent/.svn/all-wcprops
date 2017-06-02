@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/startevent
+END
+signal.svg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/startevent/signal.svg
+END
+compensation.svg
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/startevent/compensation.svg
+END
+none.svg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/startevent/none.svg
+END
+timer.svg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/startevent/timer.svg
+END
+escalation.svg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/startevent/escalation.svg
+END
+conditional.svg
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/startevent/conditional.svg
+END
+message.svg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/startevent/message.svg
+END
+multiple.parallel.svg
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/startevent/multiple.parallel.svg
+END
+error.svg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/startevent/error.svg
+END
+multiple.svg
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/startevent/multiple.svg
+END

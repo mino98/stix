@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/StixAgent/src/uk/ac/ed/inf/wimo/stix/agent/task
+END
+GetSNR.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/StixAgent/src/uk/ac/ed/inf/wimo/stix/agent/task/GetSNR.java
+END
+Electrical.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/StixAgent/src/uk/ac/ed/inf/wimo/stix/agent/task/Electrical.java
+END
+OSPF.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/StixAgent/src/uk/ac/ed/inf/wimo/stix/agent/task/OSPF.java
+END
+Reboot.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/StixAgent/src/uk/ac/ed/inf/wimo/stix/agent/task/Reboot.java
+END
+SetOspfLinkCost.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/StixAgent/src/uk/ac/ed/inf/wimo/stix/agent/task/SetOspfLinkCost.java
+END
+Power.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/StixAgent/src/uk/ac/ed/inf/wimo/stix/agent/task/Power.java
+END

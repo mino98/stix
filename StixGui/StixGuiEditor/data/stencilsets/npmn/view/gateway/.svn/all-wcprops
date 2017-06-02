@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/gateway
+END
+parallel.svg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/gateway/parallel.svg
+END
+exclusive.databased.svg
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/gateway/exclusive.databased.svg
+END
+eventbased.svg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/gateway/eventbased.svg
+END
+inclusive.svg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/gateway/inclusive.svg
+END
+complex.svg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/StixGui/StixGuiEditor/data/stencilsets/npmn/view/gateway/complex.svg
+END
